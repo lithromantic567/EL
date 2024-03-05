@@ -6,7 +6,7 @@ object的编码从one-hot改成[shape,color,up/down,left/right]
     gate_feat_in_num = 2
     gate_feat_out_num = 10
 max_gate_num = 4
-batch=20
+batch=50
 
 数据集处理出现了问题：门没有对应完全，重新处理数据
 Env.py and Dataset.py中增加门的color属性
